@@ -1,0 +1,17 @@
+:8503 {
+	handle_path /api/* {
+		root * /caddy/
+		try_files /index.json
+		header Content-Type "application/json"
+		file_server {
+			status 503
+		}
+	}
+	handle {
+		root * /caddy/
+		try_files /index.html
+		file_server
+	}
+
+	log
+}
