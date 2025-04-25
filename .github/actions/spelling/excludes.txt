@@ -3,14 +3,14 @@
 (?:^|/)(?i)LICEN[CS]E
 (?:^|/)(?i)third[-_]?party/
 (?:^|/)3rdparty/
+(?:^|/)\.keep$
 (?:^|/)generated/
 (?:^|/)go\.sum$
 (?:^|/)package(?:-lock|)\.json$
 (?:^|/)Pipfile$
 (?:^|/)pyproject.toml
-(?:^|/|\b)requirements(?:-dev|-doc|-test|)\.txt$
 (?:^|/)vendor/
-ignore$
+(?:^|/|\b)requirements(?:-dev|-doc|-test|)\.txt$
 \.a$
 \.ai$
 \.all-contributorsrc$
@@ -82,3 +82,4 @@ ignore$
 \.zip$
 ^\.github/actions/spelling/
 ^\Q.github/workflows/spelling.yml\E$
+ignore$
