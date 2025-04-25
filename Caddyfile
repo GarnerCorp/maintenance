@@ -1,5 +1,5 @@
-:8503 {
-	handle_path /api/* {
+:9000 {
+	handle {
 		root * /caddy/
 		try_files /index.json
 		header Content-Type "application/json"
@@ -7,6 +7,10 @@
 			status 503
 		}
 	}
+
+	log
+}
+:4200 {
 	handle {
 		root * /caddy/
 		try_files /index.html
