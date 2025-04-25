@@ -8,6 +8,10 @@ gtag\(.*\)
 # https/http/file urls
 (?:\b(?:https?|ftp|file)://)[-A-Za-z0-9+&@#/*%?=~_|!:,.;]+[-A-Za-z0-9+&@#/*%=~_|]
 
+# hit-count: 2 file-count: 1
+# GitHub actions
+\buses:\s+[-\w.]+/[-\w./]+@[-\w.]+
+
 # Questionably acceptable forms of `in to`
 # Personally, I prefer `log into`, but people object
 # https://www.tprteaching.com/log-into-log-in-to-login/
@@ -53,3 +57,4 @@ gtag\(.*\)
 
 # ignore long runs of a single character:
 \b([A-Za-z])\g{-1}{3,}\b
+
