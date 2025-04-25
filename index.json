@@ -1,7 +1,7 @@
 {
-	"errors": [
-	  {
-			"message": "Garner Platform is down for Scheduled Maintenance."
-	  }
-	]
+  "errors": [
+    {
+      "message": "Garner Platform is down for Scheduled Maintenance."
+    }
+  ]
 }
