@@ -3,6 +3,7 @@
 		root * /caddy/
 		try_files /index.json
 		header Content-Type "application/json"
+		header Cache-Control max-age=60
 		file_server {
 			status 503
 		}
@@ -14,6 +15,7 @@
 	handle {
 		root * /caddy/
 		try_files /index.html
+		header Cache-Control max-age=60
 		file_server
 	}
 
