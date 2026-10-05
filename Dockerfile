@@ -1,4 +1,4 @@
-ARG caddy_version="2.10.0"
+ARG caddy_version="2.11.6"
 
 FROM caddy:${caddy_version}-alpine
 
